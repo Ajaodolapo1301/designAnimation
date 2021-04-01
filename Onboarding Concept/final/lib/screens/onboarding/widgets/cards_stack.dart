@@ -35,7 +35,7 @@ class CardsStack extends StatelessWidget {
       ),
       child: Stack(
         alignment: AlignmentDirectional.center,
-        overflow: Overflow.visible,
+        // overflow: Overflow.visible,
         children: <Widget>[
           SlideTransition(
             position: darkCardOffsetAnimation,
